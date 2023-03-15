@@ -79,6 +79,11 @@ language_nav.addEventListener('click', function(){
 	window.location.href = "../en/company/index.html";
 })
 
+// Click Products to product page
+products_nav.addEventListener('click', function(){
+	window.location.href = "product/index.html";
+})
+
 // Go to the frontpage
 top_logo.addEventListener('click', function(){
 	window.location.href = "../index.html"

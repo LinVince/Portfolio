@@ -71,22 +71,18 @@ news3_link.href = news3_link_href;
 // Action
 // Go to the frontpage
 top_logo.addEventListener('click', function(){
-	window.location.href = "index.html"
+	window.location.href = "../index.html"
 })
 
 
 // Click Company to company page
 company_nav.addEventListener('click', function(){
-	window.location.href = "company/index.html";
+	window.location.href = "../company/index.html";
 })
 
-// Click Products to product page
-products_nav.addEventListener('click', function(){
-	window.location.href = "product/index.html";
-})
 
 // Go the the English page
 language_nav.addEventListener('click', function(){
-	window.location.href = "en/index.html";
+	window.location.href = "../en/product/index.html";
 })
 
