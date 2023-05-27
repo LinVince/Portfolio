@@ -1,0 +1,51 @@
+section{
+  display:flex;
+  justify-content:center;
+}
+
+.container{
+  display:block;
+  width:800px;
+  padding-top: 100px;
+}
+
+.label {
+    text-align:left;
+    margin-top:30px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: rgb(26, 27, 31);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0px;
+  }
+
+.paragraph-light {
+    opacity: 0.8;
+}
+
+.title{
+  margin-top:50px;
+  margin-bottom:0px;
+  font-weight:bold;
+}
+
+.text{
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+.container img{
+  margin-top:50px;
+  margin-bottom: 50px;
+  width:800px;
+}
