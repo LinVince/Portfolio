@@ -46,7 +46,7 @@ var html =
 '  width:20%;'+
 '  margin-right:10px;'+
 '  text-align:center;'+
-'  font-family: Open Sans, sans-serif;'+
+'  font-family: Montserrat, sans-serif;'+
 '  font-size: 18px;'+
 '  font-weight: 300;'+
 '  color:#757575;'+

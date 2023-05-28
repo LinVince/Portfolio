@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
 section{
   display:flex;
   justify-content:center;
+}
+
+#banner{
+  width: 100%;
 }
 
 .container{
@@ -48,4 +55,8 @@ body {
   margin-top:50px;
   margin-bottom: 50px;
   width:800px;
+}
+
+.boldText{
+  font-weight: bold;
 }

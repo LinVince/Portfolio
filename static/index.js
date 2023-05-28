@@ -1,10 +1,10 @@
 //Text Value
-const main_topic_txt="Work Collection"
+const main_topic_txt="WORK COLLECTION"
 const slogan_txt="Programming | Product | UX"
 const first_heading_txt="7+ years of product marketing experience in cybersecurity"
 const first_content_txt = "Working in the realm of high-tech empowers me to envision the boundless advantages of technology, enabling me to shape a product that precisely addresses customers' needs and seek out the transformative value I must generate to truly revolutionize the world."
 const second_heading_txt = "Capability of programming fosters seamless collaboration with engineers"
-const third_heading_txt = "Your Data is Stolen Before You Know it"
+/*const third_heading_txt = "Your Data is Stolen Before You Know it"
 const third_content_txt = "It's too late when there's a system alarm. By the time it is triggered, your data has already been stolen. To resolve it, try these solutions:<p>1. <b>Zero Trust</b> - Trust no one. Always verify. Stick to the principle of least privilege on the need-to-know basis<br>2. <b>Real-time Monitor</b> - Oversee the system to detect abnormal activities<br>3. <b>Encryption</b> - Encrypt your file, Even if data is leaked, there's no way to decipher it"
 const news1_heading_txt = "AuthTron Security Key joined Microsoft"
 const news1_content_txt = "WiSECURE's self-developed security key, AuthTron, passed Microsoft Azure AD compatibility test last year. This month, Microsoft officially included AuthTron in the Azure AD password-less authentication."
@@ -17,7 +17,7 @@ const news2_link_href = "https://wisecure-tech.com/media/attachments/2022/08/11/
 const news3_heading_txt = "FileAegis Entering the Semiconductor Industry"
 const news3_content_txt = "A FileAegis deployment project was launched in the semiconductor industry. Intellectual properties should be kept confidential and never be revealed to competitors to comply with supply chain regulations."
 const news3_link_txt = "Video Intro >"
-const news3_link_href = "https://youtu.be/A0h59XwbhP4"
+const news3_link_href = "https://youtu.be/A0h59XwbhP4"*/
 
 //Important Elements
 const main_topic = document.getElementById('main_topic')
@@ -25,7 +25,7 @@ const slogan = document.getElementById('slogan')
 const first_heading = document.getElementById('first_heading')
 const first_content = document.getElementById('first_content')
 const second_heading = document.getElementById('second_heading')
-const third_heading = document.getElementById('third_heading')
+/*const third_heading = document.getElementById('third_heading')
 const third_content = document.getElementById('third_content')
 const news1_heading = document.getElementById('news1_heading')
 const news1_content = document.getElementById('news1_content')
@@ -35,7 +35,7 @@ const news2_content = document.getElementById('news2_content')
 const news2_link = document.getElementById('news2_link')
 const news3_heading = document.getElementById('news3_heading')
 const news3_content = document.getElementById('news3_content')
-const news3_link = document.getElementById('news3_link')
+const news3_link = document.getElementById('news3_link')*/
 
 //Render Element Values
 main_topic.innerText = main_topic_txt;
@@ -43,7 +43,7 @@ slogan.innerText = slogan_txt;
 first_heading.innerText = first_heading_txt;
 first_content.innerText = first_content_txt;
 second_heading.innerText = second_heading_txt;
-third_heading.innerText = third_heading_txt;
+/*third_heading.innerText = third_heading_txt;
 third_content.innerHTML = third_content_txt;
 news1_heading.innerText = news1_heading_txt;
 news1_content.innerText = news1_content_txt;
@@ -56,7 +56,7 @@ news2_link.href = news2_link_href;
 news3_heading.innerText = news3_heading_txt;
 news3_content.innerText = news3_content_txt;
 news3_link.innerText = news3_link_txt;
-news3_link.href = news3_link_href;
+news3_link.href = news3_link_href;*/
 
 
 //Rendering portfolio photos
@@ -91,7 +91,7 @@ function render(){
 
 	let Name = document.createElement('span');
 	Name.innerText = data_array[i].name;
-	Name.setAttribute('style','margin-left: 10px; font-size:24px; margin-top:3px;');
+	Name.setAttribute('style','margin-left: 10px; font-size:18px; margin-top:3px;');
 	name_bar.appendChild(Name);
 }
 };
