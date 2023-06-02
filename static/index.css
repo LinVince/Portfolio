@@ -4,7 +4,6 @@
   font-size:14px ;
 }
 
-
 .welcome{
   display:flex;
   height:650px;
@@ -35,7 +34,7 @@
   width:1180px;
   height:41px;
   font-family: Montserrat, sans-serif;
-  font-weight:500;
+  font-weight:900;
   letter-spacing: 1px;
   text-align: center;
   color:#F8F8F8;
@@ -141,14 +140,23 @@ section {
 .gallery__img {
   width: 400px;
   height: 400px;
-  background-color: #333;
+  background-color: #fff;
   border: 0px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;    
   object-fit: cover;
   display:block;
   position:relative;
   padding: 15px;
+  transition: all 200ms ease-out;
+  cursor: pointer;
 }
+
+.gallery__img:hover{
+  box-shadow: 0 4px 8px 0 #4374FF, 0 6px 20px 0 #4374FF;
+}
+
+
 
 .gallery__img img {
   width: 400px;
@@ -160,21 +168,21 @@ section {
 .desc_bar {
   width:400px;
   height:30px;
-  background-color: #333;
+  background-color: #fff;
   display:flex;
   align-items:center;
   justify-content:space-between;
   position: absolute;
   font-family: Montserrat, sans-serif;
   top:360px;
-  color:#FFFFFF;
+  color:#757575;
   font-size: 14px;
 }
 
 .name_bar{
   width:400px;
   height:40px;
-  background-color: #333;
+  background-color: #fff;
   display:flex;
   justify-content:start;
   align-items: center;
@@ -182,7 +190,7 @@ section {
   font-family: Montserrat, sans-serif;
   top:320px;
   z-index:3;
-  color:#FFFFFF;
+  color:#757575;
   font-size: 14px;
   font-weight:bold;
 }
