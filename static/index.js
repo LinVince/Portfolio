@@ -101,10 +101,6 @@ var data_array = [
 {"id":1,"image":"../image/business discussion.jpeg","info":"Good Job!","name":"Cybersecurity"},
 {"id":2,"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5FqDHt3b59Gni0MZ12-gRdad9sgQnClTr_Q&usqp=CAU","info":"Good Job!","name":"Cybersecurity"},
 {"id":3,"image":"../image/security chip.png","info":"Good Job!","name":"Cybersecurity"},
-{"id":4,"image":"../image/business discussion.jpeg","info":"Good Job!","name":"Cybersecurity"},
-{"id":5,"image":"../image/business discussion.jpeg","info":"Good Job!","name":"Cybersecurity"},
-{"id":6,"image":"../image/business discussion.jpeg","info":"Good Job!","name":"Cybersecurity"},
-{"id":7,"image":"../image/business discussion.jpeg","info":"Good Job!","name":"Cybersecurity"},
 ];
 
 render();

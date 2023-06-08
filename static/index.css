@@ -61,7 +61,7 @@ section {
   display:flex;
   justify-content:center;
   padding-top:100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .text_box {
@@ -98,6 +98,20 @@ section {
   padding-top:100px;
   font-family: Montserrat, sans-serif;
 }
+
+.motto {
+  width:650px;
+  height:50px;
+  font-size:26px;
+  font-weight:500;
+  line-height: 40px;
+  color:#999;
+  padding-top:100px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+
+}
+
 
 .img_area{
   width:400px;
