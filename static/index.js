@@ -83,7 +83,7 @@ function render(){
 	let Info = document.createElement('span');
 	Info.textContent = data_array[i].info;
 	desc_bar.appendChild(Info);
-	Info.setAttribute('style','margin-left: 10px');
+	Info.setAttribute('style','margin-left: 10px;');
 
 	let name_bar = document.createElement('div');
 	name_bar.classList.add("name_bar");
@@ -98,9 +98,9 @@ function render(){
 
 //Content here
 var data_array = [
-{"id":1,"image":"../image/business discussion.jpeg","info":"Good Job!","name":"Cybersecurity"},
-{"id":2,"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5FqDHt3b59Gni0MZ12-gRdad9sgQnClTr_Q&usqp=CAU","info":"Good Job!","name":"Cybersecurity"},
-{"id":3,"image":"../image/security chip.png","info":"Good Job!","name":"Cybersecurity"},
+{"id":1,"image":"../image/ga_img_1.jpg","info":"UI/UX, CMS, Graphic Design, Technical Writing","name":"Cybersecurity - Official Website"},
+{"id":2,"image":"../image/ga_img_2.jpg","info":"HTML, CSS, Javascrip, Python Flask, SQL","name":"E-commerce - Tourism Booking Website"},
+{"id":3,"image":"../image/ga_img_3.jpg","info":"UX, CMS, Digital Marketing","name":"Education - Official Website"},
 ];
 
 render();
