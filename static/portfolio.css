@@ -8,6 +8,9 @@ section{
 
 #banner{
   width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 50px;
 }
 
 .container{

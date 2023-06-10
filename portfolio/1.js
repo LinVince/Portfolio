@@ -1,7 +1,7 @@
 Section = document.querySelector('section')
 
 Banner = document.getElementById('banner')
-Banner.setAttribute('src','https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png')
+Banner.setAttribute('src','../image/banner_p1.jpg')
 
 Container = document.createElement('div')
 Container.setAttribute('class' , 'container')
@@ -14,7 +14,7 @@ Container.appendChild(DescLabel)
 
 DescText = document.createElement('div')
 DescText.setAttribute('class' , 'paragraph-light')
-DescText.textContent="IKV-Tech is a cybersecurity solution provider in Taiwan. They specialize in cryptographic hardware implementation. In the project, I renovated their existing website to resolve some UX issues."
+DescText.textContent="IKV-Tech is a cybersecurity solution provider in Taiwan. They specialize in cryptographic hardware implementation. In the project, I renovated their existing website, generated technical articles, and made a video to resolve some UX and brand image issues."
 Container.appendChild(DescText)
 
 TimeLabel = document.createElement('div')
