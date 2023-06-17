@@ -74,8 +74,8 @@ document.write( '   <div class=\"top\">\n' );
 document.write( '    <div class=\"frame\">\n' );
 document.write( '      <div class=\"heading\"><img id=\"top_logo\" src=\"../image/logo.png\" style=\"width:auto;height:50px;padding-top: 0px;\" ></div>\n' );
 document.write( '      <div class=\"desktop-menu\">\n' );
-document.write( '        <div id=\"products_nav\" class=\"item\">Products</div>\n' );
-document.write( '        <div id=\"company_nav\" class=\"item\">Company</div>\n' );
+document.write( '        <div id=\"portfolio_nav\" class=\"item\">Portfolio</div>\n' );
+/*document.write( '        <div id=\"company_nav\" class=\"item\">Company</div>\n' );*/
 document.write( '      </div>     \n' );
 document.write( '    </div>\n' );
 document.write( '    </div>\n' );
@@ -86,15 +86,15 @@ document.write( '</html>' );
 
 
 const top_logo = document.getElementById('top_logo')
-const products_nav = document.getElementById('products_nav')
-const company_nav = document.getElementById('company_nav')
+const portfolio_nav = document.getElementById('portfolio_nav')
+/*const company_nav = document.getElementById('company_nav')*/
 
 
 // Action
 // Click Company to company page
-company_nav.addEventListener('click', function(){
+/*company_nav.addEventListener('click', function(){
 	window.location.href = "../company/index.html";
-})
+})*/
 
 // Go to the frontpage
 top_logo.addEventListener('click', function(){
@@ -102,6 +102,6 @@ top_logo.addEventListener('click', function(){
 })
 
 // Go to the product page
-products_nav.addEventListener('click', function(){
-	window.location.href = "../product/index.html";
+portfolio_nav.addEventListener('click', function(){
+	window.location.href = "../home/index.html#portfolio_heading";
 })
