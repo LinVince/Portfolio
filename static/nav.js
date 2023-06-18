@@ -3,7 +3,7 @@ var html =
 '.top{'+
 '  display:flex;'+
 '  width:100%;'+
-'  justify-content:center;'+
+'  justify-content:space-evenly;'+
 '  position: fixed;'+
 '  top: 0;'+
 '  z-index:12;'+
@@ -47,7 +47,7 @@ var html =
 '  margin-right:10px;'+
 '  text-align:center;'+
 '  font-family: Montserrat, sans-serif;'+
-'  font-size: 18px;'+
+'  font-size: 20px;'+
 '  font-weight: 300;'+
 '  color:#757575;'+
 '  transition: all 0.2s ease-in-out;'+
@@ -58,6 +58,8 @@ var html =
 '  color:#fa4616;'+
 '}'+
 ''+
+'@media(min-width:600px) and (max-width:1199px){.frame{width:80%;}.item{font-size:25px}}' +
+'@media(min-width:360px) and (max-width:600px){.frame{width:80%;}.item{font-size:30px}}'+
 '</style>'
 
 
