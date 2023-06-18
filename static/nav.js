@@ -43,7 +43,7 @@ var html =
 '.item{'+
 '  background-color:#FFFFFF;'+
 '  flex:none;'+
-'  width:20%;'+
+'  width:40%;'+
 '  margin-right:10px;'+
 '  text-align:center;'+
 '  font-family: Montserrat, sans-serif;'+
