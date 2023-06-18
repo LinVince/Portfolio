@@ -52,14 +52,14 @@ text = [
      {'tag':'img','src':"../image/Value_proposition_p3.jpg"}, 
   {'tag':'div','class':'boldText','text':'3. Ideate'},
   {'tag':'div','class':'text','text':"To solve the problems we've listed at the previous stage, I discussed the information architecture with the English teachers. We decided to add two sections, Teachers' Blog and Events, other than About Us and Courses. By doing so, we expected to build our brand image and enhance credibility."},
-  {'tag':'img','src':"../image/Information_architecture_p3.jpg"}, 
+  {'tag':'img','src':"../image/information_architecture_p3.jpg"}, 
   {'tag':'div','class':'text','text':"Judging from the advantages of this English school, we highlighted some keywords for SEO and value proposition. Every banner photo we chose should also suit the brand image. This English school was not positioned purely as a cram school. Instead, it aimed to create a 0% fear 100% confidence learning environment, in hope of equipping learners with the courage to learn other new things more than just English."},
   {'tag':'div','class':'text','text':"Though they were a small company, they wanted to look like a trustworthy and credible company. Therefore, we decided that consistency should be the key to the website. The colors, fonts, layouts and contents should follow a specific design rule."},
   {'tag':'div','class':'text','text':"Finally, we expected to open an article section where they could continuously upload articles about idioms, phrases, etc. In fact, there were hundreds of people looking for a proper English word to capture the meaning of their thoughts they could only express in Chinese. With the section, we could allow this kind of audience to reach our website."},
-    {'tag':'img','src':"../image/Blog_p3.jpg"},
+    {'tag':'img','src':"../image/blog_p3.jpg"},
   {'tag':'div','class':'boldText','text':'5. Prototype and Test'},
   {'tag':'div','class':'text','text':'I used Adobe XD to make the low-fidelity prototype in the first place. Once I made sure those English teachers were on the same page, I moved on to create high-fidelity prototype. After the functionality and design were all confirmed and tested, I used Wordpress to build the webiste.'},
-  {'tag':'img','src':"../image/Prototype_p3.jpg"},
+  {'tag':'img','src':"../image/prototype_p3.jpg"},
 ]
 
 
