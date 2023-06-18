@@ -1,3 +1,7 @@
+Small ='@media(min-width:300px) and (max-width:599px){#web_sitemap{display: flex; justify-content: center;flex-wrap: wrap; height: 280px;}#web_sitemap div{  margin-right: 0px;}#Logo{margin-right: 0px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px;}.footer{font-size: 14px;}}'
+
+
+
 document.write( '<style>\n' );
 document.write( '.footer {\n' );
 document.write( '  width:100%;\n' );
@@ -37,6 +41,7 @@ document.write( '#Logo {\n' );
 document.write( 'width:200px; \n' );
 document.write( 'margin-right: 100px;\n' );
 document.write( '}\n' );
+document.write(Small);
 document.write( '</style>' );
 
 

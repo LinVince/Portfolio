@@ -58,8 +58,8 @@ var html =
 '  color:#fa4616;'+
 '}'+
 ''+
-'@media(min-width:600px) and (max-width:1199px){.frame{width:80%;}.item{font-size:25px}}' +
-'@media(min-width:360px) and (max-width:600px){.frame{width:80%;}.item{font-size:30px}}'+
+'@media(min-width:600px) and (max-width:1199px){.frame{width:80%;}.item{font-size:20px;}}' +
+'@media(min-width:360px) and (max-width:600px){.frame{width:80%;}.item{font-size:20px;}}'+
 '</style>'
 
 
