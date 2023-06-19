@@ -63,3 +63,43 @@ body {
 .boldText{
   font-weight: bold;
 }
+
+
+@media(min-width:600px) and (max-width:1199px){
+
+#banner{
+  margin-top: 70px;
+}
+
+.container{
+  width: 100%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.container img{
+  width: 100%;
+}
+
+
+}
+
+
+@media(min-width:300px) and (max-width:599px){
+
+#banner{
+  margin-top: 70px;
+}
+
+.container{
+  width: 100%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.container img{
+  width: 100%;
+}
+
+
+}
