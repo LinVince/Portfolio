@@ -101,6 +101,7 @@ var data_array = [
 {"id":1,"image":"../image/ga_img_1.jpg","info":"UI/UX, CMS, Graphic Design, Technical Writing","name":"Cybersecurity - Official Website"},
 {"id":2,"image":"../image/ga_img_2.jpg","info":"HTML, CSS, Javascrip, Python Flask, SQL","name":"E-commerce - Tourism Booking Website"},
 {"id":3,"image":"../image/ga_img_3.jpg","info":"UX, CMS, Digital Marketing","name":"Education - Official Website"},
+{"id":4,"image":"../image/ga_img_4.jpg","info":"React, Typescript, Python Flask","name":"Bitcoin Paper Money Generator"},
 ];
 
 render();
