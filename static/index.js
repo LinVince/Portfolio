@@ -1,9 +1,9 @@
 //Text Value
-const main_topic_txt="WORK COLLECTION"
-const slogan_txt="Programming | Product | UX"
-const first_heading_txt="7+ years of product marketing experience in cybersecurity"
+const main_topic_txt="YUEH WORK COLLECTION"
+const slogan_txt="Programming | UX"
+const first_heading_txt="7+ years in Cybersecurity | 3+ years in Python Lecturing"
 const first_content_txt = "Working in the realm of high-tech empowers me to envision the boundless advantages of technology, enabling me to shape a product that precisely addresses customers' needs and seek out the transformative value I must generate to truly revolutionize the world."
-const second_heading_txt = "Capability of programming fosters seamless collaboration with engineers"
+const second_heading_txt = "Life is short. We should not waste time on programming something useless."
 /*const third_heading_txt = "Your Data is Stolen Before You Know it"
 const third_content_txt = "It's too late when there's a system alarm. By the time it is triggered, your data has already been stolen. To resolve it, try these solutions:<p>1. <b>Zero Trust</b> - Trust no one. Always verify. Stick to the principle of least privilege on the need-to-know basis<br>2. <b>Real-time Monitor</b> - Oversee the system to detect abnormal activities<br>3. <b>Encryption</b> - Encrypt your file, Even if data is leaked, there's no way to decipher it"
 const news1_heading_txt = "AuthTron Security Key joined Microsoft"
@@ -98,10 +98,12 @@ function render(){
 
 //Content here
 var data_array = [
-{"id":1,"image":"../image/ga_img_1.jpg","info":"UI/UX, CMS, Graphic Design, Technical Writing","name":"Cybersecurity - Official Website"},
-{"id":2,"image":"../image/ga_img_2.jpg","info":"HTML, CSS, Javascrip, Python Flask, SQL","name":"E-commerce - Tourism Booking Website"},
-{"id":3,"image":"../image/ga_img_3.jpg","info":"UX, CMS, Digital Marketing","name":"Education - Official Website"},
-{"id":4,"image":"../image/ga_img_4.jpg","info":"React, Typescript, Python Flask","name":"Bitcoin Paper Money Generator"},
+{"id":5,"image":"../image/ga_img_5.jpg","info":"Python - Pandas, Matplotlib","name":"Python - Data Visualization/Processing"},
+{"id":4,"image":"../image/ga_img_4.jpg","info":"React, Typescript, Python Flask (RESTful API), Cryptography","name":"Full Stack - Bitcoin Money Generator"},
+{"id":2,"image":"../image/ga_img_2.jpg","info":"HTML/CSS/Javascript, Python Flask (RESTful API), SQL, AWS","name":"Full Stack - E-commerce Website"},
+{"id":3,"image":"../image/ga_img_3.jpg","info":"UX, Wordpress, Digital Marketing","name":"CMS - Education Website"},
+{"id":1,"image":"../image/ga_img_1.jpg","info":"UI/UX, Joomla, Graphic Design, Technical Writing","name":"CMS - Cybersecurity Website"},
+
 ];
 
 render();
@@ -110,7 +112,7 @@ render();
 const galleryItem = document.getElementsByClassName('gallery__img') 
 
 for (let i = 0; i < galleryItem.length; i++) {
-  let index = i + 1;
+  let index = data_array[i]['id'];
   galleryItem[i].addEventListener('click', () => {
   window.location.href = `../portfolio/${index}.html`;
   });

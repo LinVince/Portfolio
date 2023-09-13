@@ -48,6 +48,6 @@ document.write( '</style>' );
 
 document.write( '    <div id=\"web_sitemap\">\n' );
 document.write( '    <div><img id=\"Logo\" src=\"../image/logo_dark.png\"></div>\n' );
-document.write( '    <div>Email: vincejim91126@gmail.com <br>Instagram: vincentr_lin<br><a href=\"https://www.facebook.com/profile.php?id=100000276938295\">Facebook</a> | <a href=\"https://www.linkedin.com/in/yuehchin-l-93264299/\">Linkedin</a> <br><a href="../home/index.html#portfolio_heading"> Back to Portfolio</a></div>\n' );
+document.write( '    <div>vincejim91126@gmail.com <br><a href=\"https://www.linkedin.com/in/yuehchin-l-93264299/\">Linkedin</a> <br><a href="../home/index.html#portfolio_heading"> Back to Portfolio</a></div>\n' );
 document.write( '</div>\n' );
-document.write( '<div class=\"footer\">COPYRIGHT© 2023 VINCENTLIN. All rights reserved.</div>' );
+document.write( '<div class=\"footer\">COPYRIGHT© 2023 YUEH LIN. All rights reserved.</div>' );
