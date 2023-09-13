@@ -77,6 +77,7 @@ text = [{
   'tag':'div',
   'class':'title',
   'text':"PART II - Customizing Google Analytics Data Visualization"},
+   {'tag':'div','class':'text','text':'To be continued...'},
 
       ]
 

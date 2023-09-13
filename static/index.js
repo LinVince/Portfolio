@@ -1,5 +1,5 @@
 //Text Value
-const main_topic_txt="YUEH WORK COLLECTION"
+const main_topic_txt="YUEH COLLECTION"
 const slogan_txt="Programming | UX"
 const first_heading_txt="7+ years in Cybersecurity | 3+ years in Python Lecturing"
 const first_content_txt = "Working in the realm of high-tech empowers me to envision the boundless advantages of technology, enabling me to shape a product that precisely addresses customers' needs and seek out the transformative value I must generate to truly revolutionize the world."

@@ -60,20 +60,20 @@
 section {
   display:flex;
   justify-content:center;
-  padding-top:100px;
-  padding-bottom: 50px;
+  padding-top:70px;
+  padding-bottom: 0px;
   flex-wrap: wrap;
 }
 
 .text_box {
-  width:800px;
+  width:750px;
   height:400px;
   padding-top: 50px;
   padding-left: 50px;
 }
 
 #first_heading {
-  width:800px;
+  width:650px;
   height:50px;
   font-size:24px;
   font-weight:700;
@@ -146,10 +146,10 @@ section {
   height: autox;
   background-color:#FFFFFF;
   display: grid;  
-  grid-template-columns: repeat(3,450px);
+  grid-template-columns: repeat(2, 450px);
   grid-template-rows: repeat(3);
   justify-content:center;
-  grid-gap: 15px 0px;  
+  grid-gap: 30px 15px;  
 }
 
 .gallery__img {
@@ -316,7 +316,7 @@ margin:0px;
 
 .text_box{
   width:80%;
-  height: 0px;
+  height: 100px;
 }
 #first_heading{
   width:100%;
@@ -331,6 +331,15 @@ margin:0px;
 .motto, #section_title{
   width:100%;
 }
+
+#portfolio_heading{
+  padding-top: 150px;
+}
+
+section{
+  padding-top: 30px;
+}
+
 .container{
   grid-template-columns: repeat(1,450px);
 }
@@ -392,7 +401,8 @@ margin:0px;
 
 .text_box{
   width:80%;
-  height: 0px;
+  height: 200px;
+  padding-top: 0px;
   padding-left: 0px;
 }
 #first_heading{
@@ -437,6 +447,13 @@ padding-top: 150px;
 }
 
 
+section{
+  padding-top: 30px;
+}
+
+#portfolio_heading{
+  padding-top: 150px;
+}
 
 /*.desktop-menu{
   display:none;
