@@ -34,7 +34,7 @@ Container.appendChild(AuthorLabel)
 
 AuthorText = document.createElement('div')
 AuthorText.setAttribute('class' , 'paragraph-light')
-AuthorText.textContent="Yueh"
+AuthorText.textContent="YUEH LIN"
 Container.appendChild(AuthorText)
 
 text = [{
@@ -77,7 +77,7 @@ text = [{
   'tag':'div',
   'class':'title',
   'text':"PART II - Customizing Google Analytics Data Visualization"},
-   {'tag':'div','class':'text','text':'To be continued...'},
+   {'tag':'div','class':'text','text':'To be continued.'},
 
       ]
 

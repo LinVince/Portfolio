@@ -33,7 +33,7 @@ Container.appendChild(AuthorLabel)
 
 AuthorText = document.createElement('div')
 AuthorText.setAttribute('class' , 'paragraph-light')
-AuthorText.textContent="VINCENT LIN"
+AuthorText.textContent="YUEH LIN"
 Container.appendChild(AuthorText)
 
 text = [
