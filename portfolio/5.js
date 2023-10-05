@@ -14,7 +14,7 @@ Container.appendChild(DescLabel)
 
 DescText = document.createElement('div')
 DescText.setAttribute('class' , 'paragraph-light')
-DescText.textContent="Whether it's for my work or the course I taught, I needed to visualise data for stakeholders to comprehend the digital marketing performance or for students to learn what problems we can solve with data visualization. Here are the problem-solving examples and real-life use cases in terms of quantitative data processing and visualization. Some examples I showed to students were extracted from Dr. Angela Yu."
+DescText.textContent="Whether it's for my work or the course I taught, I needed to visualise data for stakeholders to comprehend the digital marketing performance or for students to learn what problems we can solve with data visualization. Here are the problem-solving examples and real-life use cases in terms of quantitative data processing and visualization. Some examples I showed to students were extracted from Dr. Angela Yu. And the major project is the integration of Google Analytics 4 and Python. I leveraged the API and used Python to automate the generation of commercial data reports. Here I will also show the challenges and how I ended up visualizing data in this way."
 Container.appendChild(DescText)
 
 TimeLabel = document.createElement('div')
@@ -40,7 +40,65 @@ Container.appendChild(AuthorText)
 text = [{
   'tag':'div',
   'class':'title',
-  'text':"PART I - CSV Data Processing and Visualization"},
+  'text':"PART I - Google Analytics 4 API empowered by Python"},
+  {'tag':'img','src':"../image/pythonxga4.jpg"},
+  {'tag':'div','class':'title','text':'1. Background'},
+  {'tag':'div',
+   'class':'text',
+   'text':"Analyzing commercial data on Google Analytics may be time-consuming. Calculation requires manual work. With the use of Python, I not only generate the report with just one click, but the flexibility allows me to cross-compare different types of data and efficiently extract the types of reports I need."},
+   {'tag':'div',
+   'class':'text',
+   'text':"Here I collaborate with an English school in Taiwan. I will showcase how the numbers of the official website visitors and conversions are visualized. I will mention the challenges I have faced and my considerations in the process of development as well."},
+   {'tag':'div','class':'title','text':'2. Commercial Data'},
+    {'tag':'div',
+   'class':'text',
+   'text':"It is common that enterprises or ecommerce stores use Google Analytics to track the website traffic and calculation the conversion rate. The English school also used Google Analytics to track the number of visitors. On the website, there are two conversion events. One of them is submitting the contact form, the other joining the official LINE account."},
+    {'tag':'div','class':'title','text':'3. Integration with Google Analytics 4 API'},
+    {'tag':'div',
+   'class':'text',
+   'text':"Google provides developers with GA4 API to play with data. According to the documentation, I can call the given function and set the parameters and metrics to retrieve the data I want."},
+   {'tag':'img','src':"../image/GA4_API.jpg"},
+   {'tag':'div',
+   'class':'text',
+   'text':"Here I use Jupyter Notebook to render the charts and tables. I also modified the function, defining one for the number of visits and the other for the number of conversions."},
+   {'tag':'img','src':"../image/jupyter.jpg"},
+  {'tag':'div',
+   'class':'text',
+   'text':"After configuring the period of time I expect to look into, I get the raw data from Google Analytics Data API. Then I have to write codes to define the data structure and extract the data I need for further analysis or presentation."},
+   {'tag':'img','src':"../image/ga4_rawdata.jpg"},
+
+  {'tag':'div',
+   'class':'text',
+   'text':"To organize and restructure the raw data into an ideal format, I wrote some codes and made it a stats report generator."},
+   {'tag':'img','src':"../image/gen_report.gif"},
+     {'tag':'div',
+   'class':'text',
+   'text':"Other than the report in the textual form, I also generated some charts for reference. For example, the chart below shows the numbers of visitors from four difference social media sources. Two line charts shows the trend of Facebook and Instagram visitors."},
+   {'tag':'img','src':"../image/chart_1.jpg"},
+    {'tag':'div',
+   'class':'text',
+   'text':"Also, we can put two sources together into one chart for comparison."},
+   {'tag':'img','src':"../image/chart_2.jpg"},
+   {'tag':'div',
+   'class':'text',
+   'text':"Besides the current ad performance, I display history performance as well. When we see the chart below, we notice the spike on 9/21. Then I can get back to the marketing team and show them the chart. By doing so, they can take a closer or even a qualitative look at their promotional action on 9/21."},
+    {'tag':'img','src':"../image/chart_3.jpg"},
+      {'tag':'div',
+   'class':'text',
+   'text':"More than just the number of visitors, I also calculate the number of conversions. The prerequisite condition of conversion track is the configuration and setting through Google Tag Manager. The number of people who sumbit a contact form or add our official LINE account will be recorded and counted as conversions."},
+   {'tag':'div',
+   'class':'text',
+   'text':"As the school is still expanding and developing, the number of conversions every week isn't too magnificent. Therefore, I use dots to present the stats."},
+   {'tag':'img','src':"../image/chart_4.jpg"},
+   {'tag':'div','class':'title','text':'4. Future Development'},
+   {'tag':'div',
+   'class':'text',
+   'text':"The existing design can satisfy the current needs for data visualization and the insight into promotional marketing. However, there will be more to add. I plan to integrate the frontend, build the RESTful API in the backend in order to enable my colleagues to interact with the data. That will be a different story and work in my portfolio."},
+
+{
+  'tag':'div',
+  'class':'title',
+  'text':"PART II - CSV Data Processing and Visualization"},
   {'tag':'div',
    'class':'text',
    'text':"In many cases, data sets are stored in the CSV format. To visualise the data sets, we have to process the CSV format first and then retrieve what we need, either digital numbers or charts. Here are some examples of processing CSV data so as to display insights into an industry or a problem."},
@@ -71,15 +129,15 @@ text = [{
       {'tag':'img','src':"../image/p_5_9.jpg"},
       {'tag':'div','class':'title','text':'4. Correlation between Tesla Google Search Popularity and Stock Prices'},
       {'tag':'div','class':'text','text':'This is definitely one of the most interesting data visualization cases I have ever seen. It combines Google search and the stock prices.'},{'tag':'img','src':"../image/p_5_10.jpg"},
-        {'tag':'div','class':'text','text':'Though we need more information to see how Google Search and stock prices are related to each other, the chart helps us catch a glimpse of the influence of online popularity on the decision-making behaviors observed in the stock market.'},
-       {'tag':'div','class':'text','text':'Other than visualizing CVS data, I also processed and visualized JSON and XML files. In the next section, I will share a real-life use case, which is analyzing statistical reports from Google Analytics. As a digital marketing person, what I need is not just the report generated by Google Analytics. Customizing the data format and visual presentation is important for me to gain additional insights.'},
-       {
-  'tag':'div',
-  'class':'title',
-  'text':"PART II - Customizing Google Analytics Data Visualization"},
-   {'tag':'div','class':'text','text':'To be continued.'},
+      {'tag':'div','class':'text','text':'Though we need more information to see how Google Search and stock prices are related to each other, the chart helps us catch a glimpse of the influence of online popularity on the decision-making behaviors observed in the stock market.'},
+    {
+      'tag':'div',
+      'class':'title',
+      'text':"PART III - Conclusion"},
+      
+    {'tag':'div','class':'text','text':'Many people think visualizing data is cool and fancy, but it all comes down to communicative strategies - the best way to deliever messages and insights to our customers. All in all, in this fast-pacing world, not only does the retrieval of priceless information make a company advantageous, but the ability to process and interpret data and information is the key to business success.'},
 
-      ]
+      ] 
 
  
 for (let i = 0; i < text.length; i++){

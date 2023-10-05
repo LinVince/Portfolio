@@ -98,7 +98,7 @@ function render(){
 
 //Content here
 var data_array = [
-{"id":5,"image":"../image/ga_img_5.jpg","info":"Python - Pandas, Matplotlib","name":"Python - Data Visualization/Processing"},
+{"id":5,"image":"../image/ga_img_5.jpg","info":"Google Analytics 4 API, Python Pandas, Matplotlib","name":"Python - Data Visualization/Processing"},
 {"id":4,"image":"../image/ga_img_4.jpg","info":"React, Typescript, Python Flask (RESTful API), Cryptography","name":"Full Stack - Bitcoin Money Generator"},
 {"id":2,"image":"../image/ga_img_2.jpg","info":"HTML/CSS/Javascript, Python Flask (RESTful API), SQL, AWS","name":"Full Stack - E-commerce Website"},
 {"id":3,"image":"../image/ga_img_3.jpg","info":"UX, Wordpress, Digital Marketing","name":"CMS - Education Website"},
