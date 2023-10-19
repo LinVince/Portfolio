@@ -98,11 +98,12 @@ function render(){
 
 //Content here
 var data_array = [
+{"id":6,"image":"../image/ga_img_6.jpg","info":"UI/UX, Python, Data Visualization, Gephi","name":"UX, Frontend - Network Graph Visualization"},
+{"id":3,"image":"../image/ga_img_3.jpg","info":"UX/UI, React, Typescript, Python, Data Visualization","name":"Titan Project - All-in-one Business Infra"},
 {"id":5,"image":"../image/ga_img_5.jpg","info":"Google Analytics 4 API, Python Pandas, Matplotlib","name":"Python - Data Visualization/Processing"},
-{"id":4,"image":"../image/ga_img_4.jpg","info":"React, Typescript, Python Flask (RESTful API), Cryptography","name":"Full Stack - Bitcoin Money Generator"},
-{"id":2,"image":"../image/ga_img_2.jpg","info":"HTML/CSS/Javascript, Python Flask (RESTful API), SQL, AWS","name":"Full Stack - E-commerce Website"},
-{"id":3,"image":"../image/ga_img_3.jpg","info":"UX, Wordpress, Digital Marketing","name":"CMS - Education Website"},
-{"id":1,"image":"../image/ga_img_1.jpg","info":"UI/UX, Joomla, Graphic Design, Technical Writing","name":"CMS - Cybersecurity Website"},
+{"id":4,"image":"../image/ga_img_4.jpg","info":"React, Typescript, Python Flask (RESTful API), Cryptography","name":"UX, Fullstack - Bitcoin Money Generator"},
+{"id":2,"image":"../image/ga_img_2.jpg","info":"HTML/CSS/Javascript, Python Flask (RESTful API), SQL, AWS","name":"Fullstack - E-commerce Website"},
+{"id":1,"image":"../image/ga_img_1.jpg","info":"UI/UX, Content Strategy, Graphic Design","name":"UX Design - Cybersecurity Website"},
 
 ];
 
