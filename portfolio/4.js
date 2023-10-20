@@ -63,7 +63,7 @@ text = [
   {'tag':'div','class':'title','text':'3. Design Phases'}, 
   {'tag':'div','class':'text','text':'As the requirements were clear, I directly moved on to the technical part of the design without the research part.'},
   {'tag':'div','class':'boldText','text':'Phase 1 - Build the engine'},
-  {'tag':'img','src':"../image/bitcoin_engine_code.jpg"},
+  {'tag':'img','src':"../image/engine_bitcoin.jpg"},
   {'tag':'div','class':'text','text':'The tool involved much encoding and a complex switch between numeral systems. The function of the engine was to encode different inputs of data, concatenate these inputs, then generate a cryptgoraphic key pair and sign the concatenated data with the private key. Also, there was a function to vertify the authenticity of the paper money with a public key as well. (Codes available on GitHub)'},  
     {'tag':'div','class':'boldText','text':'Phase 2 - Build the server with Python Flask'},
     {'tag':'div','class':'text','text':'In order to make the engine available not only through integration, I built a backend server so that the frontend could communicate with the engine and make the whole process friendly with a usable browser-based interface.'},
