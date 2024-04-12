@@ -19,6 +19,8 @@ document.write( '  align-items:center;\n' );
 document.write( '  justify-content:center;\n' );
 document.write( '}\n' );
 document.write( '\n' );
+document.write('#footer_a, #footer_a:hover, #footer_a:active {\n');
+document.write('color: #C7C7C7;}\n');
 document.write( '#web_sitemap {\n' );
 document.write( '  width:100%;\n' );
 document.write( '  height:150px;\n' );
@@ -48,6 +50,6 @@ document.write( '</style>' );
 
 document.write( '    <div id=\"web_sitemap\">\n' );
 document.write( '    <div><img id=\"Logo\" src=\"../image/logo_dark.png\"></div>\n' );
-document.write( '    <div>vincejim91126@gmail.com <br><a href=\"https://www.linkedin.com/in/yuehchin-l-93264299/\">Linkedin</a> <br><a href="../home/index.html#portfolio_heading"> Back to Portfolio</a></div>\n' );
+document.write( "    <div>vincejim91126@gmail.com <br><a  id = 'footer_a' href=\'https://www.linkedin.com/in/yuehchin-l-93264299/\'>Linkedin</a> <br><a id = 'footer_a' href='../home/index.html#portfolio_heading'> Back to Portfolio</a></div>\n");
 document.write( '</div>\n' );
-document.write( '<div class=\"footer\">COPYRIGHT© 2023 YUEH LIN. All rights reserved.</div>' );
+document.write( '<div class=\"footer\">COPYRIGHT© 2024 YUEH LIN. All rights reserved.</div>' );
