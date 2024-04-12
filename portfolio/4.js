@@ -33,6 +33,16 @@ TimeText.setAttribute('class' , 'paragraph-light')
 TimeText.textContent="August 2018"
 Container.appendChild(TimeText)
 
+ClientLabel = document.createElement('div')
+ClientLabel.setAttribute('class' , 'label')
+ClientLabel.textContent="client"
+Container.appendChild(ClientLabel)
+
+ClientText = document.createElement('div')
+ClientText.setAttribute('class' , 'paragraph-light')
+ClientText.textContent="Cryptocurrency Exchange"
+Container.appendChild(ClientText)
+
 AuthorLabel = document.createElement('div')
 AuthorLabel.setAttribute('class' , 'label')
 AuthorLabel.textContent="who"

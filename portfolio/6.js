@@ -9,7 +9,7 @@ Section.appendChild(Container)
 
 titleText = document.createElement('div')
 titleText.setAttribute('class' , 'title')
-titleText.textContent="UX, Frontend - Network Graph Visualization"
+titleText.textContent="UX, Frontend - Knowledge Navigation Map"
 Container.appendChild(titleText)
 
 DescLabel = document.createElement('div')
@@ -20,7 +20,7 @@ Container.appendChild(DescLabel)
 
 DescText = document.createElement('div')
 DescText.setAttribute('class' , 'paragraph-light')
-DescText.textContent="The project is currently confidential."
+DescText.textContent="The knowledge navigation map is a truth tech product I developed with TiiQu, a London-based organization devoted for green and truth technology. During my study in London, I've got the opportunity to work with them. From a UX designer in the first place, a overall product designer and then the frontend engineer, eventually the lead of the whole frontend team, I've seen the product built from scratch. As more and more people devoted their time and efforts, we finally achieved the concept of turning knowledge into a map to defeat misinformation as we aim to let people know what they don't know and show them 'what they don't know they don't know.'"
 Container.appendChild(DescText)
 
 TimeLabel = document.createElement('div')
@@ -32,6 +32,16 @@ TimeText = document.createElement('div')
 TimeText.setAttribute('class' , 'paragraph-light')
 TimeText.textContent="2023"
 Container.appendChild(TimeText)
+
+ClientLabel = document.createElement('div')
+ClientLabel.setAttribute('class' , 'label')
+ClientLabel.textContent="client"
+Container.appendChild(ClientLabel)
+
+ClientText = document.createElement('div')
+ClientText.setAttribute('class' , 'paragraph-light')
+ClientText.textContent="TiiQu"
+Container.appendChild(ClientText)
 
 AuthorLabel = document.createElement('div')
 AuthorLabel.setAttribute('class' , 'label')

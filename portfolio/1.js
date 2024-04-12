@@ -32,6 +32,16 @@ TimeText.setAttribute('class' , 'paragraph-light')
 TimeText.textContent="January 2020"
 Container.appendChild(TimeText)
 
+ClientLabel = document.createElement('div')
+ClientLabel.setAttribute('class' , 'label')
+ClientLabel.textContent="client"
+Container.appendChild(ClientLabel)
+
+ClientText = document.createElement('div')
+ClientText.setAttribute('class' , 'paragraph-light')
+ClientText.textContent="InfoKeyVault Technology"
+Container.appendChild(ClientText)
+
 AuthorLabel = document.createElement('div')
 AuthorLabel.setAttribute('class' , 'label')
 AuthorLabel.textContent="who"
