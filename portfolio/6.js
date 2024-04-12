@@ -88,7 +88,7 @@ text = [
     {'tag':'a','href':'https://qutii.org','text':'qutii.org'},
     {'tag':'div',
     'class':'text',
-    'text':"For temporary demonstration purpoes, visit"},
+    'text':"For temporary demonstration purpoes (only Desktop), visit"},
     {'tag':'a','href':'https://qutii.vercel.app/','text':'qutii.vercel.app'},
    
       ] 
