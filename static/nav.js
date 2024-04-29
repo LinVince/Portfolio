@@ -43,8 +43,8 @@ var html =
 '.item{'+
 '  background-color:#FFFFFF;'+
 '  flex:none;'+
-'  width:40%;'+
-'  margin-right:10px;'+
+'  width:30%;'+
+'  margin-right:5px;'+
 '  text-align:center;'+
 '  font-family: Montserrat, sans-serif;'+
 '  font-size: 20px;'+
@@ -77,7 +77,7 @@ document.write( '    <div class=\"frame\">\n' );
 document.write( '      <div class=\"heading\"><img id=\"top_logo\" src=\"../image/logo.png\" style=\"width:auto;height:50px;padding-top: 0px;\" ></div>\n' );
 document.write( '      <div class=\"desktop-menu\">\n' );
 document.write( '        <div id=\"portfolio_nav\" class=\"item\">Portfolio</div>\n' );
-/*document.write( '        <div id=\"company_nav\" class=\"item\">Company</div>\n' );*/
+document.write( '        <div id=\"proficiency_nav\" class=\"item\">Proficiency</div>\n' );
 document.write( '      </div>     \n' );
 document.write( '    </div>\n' );
 document.write( '    </div>\n' );
@@ -103,7 +103,12 @@ top_logo.addEventListener('click', function(){
 	window.location.href = "../index.html";
 })
 
-// Go to the product page
+// Go to the portfolio page
 portfolio_nav.addEventListener('click', function(){
 	window.location.href = "../home/index.html#portfolio_heading";
+})
+
+// Go to the proficiency page
+proficiency_nav.addEventListener('click', function(){
+	window.location.href = "../home/index.html#proficiency_heading";
 })
