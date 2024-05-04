@@ -6,9 +6,9 @@ Container = document.createElement('div')
 Container.setAttribute('class' , 'container')
 Section.appendChild(Container)
 
-/*titleText = document.createElement('div')
+titleText = document.createElement('div')
 titleText.setAttribute('class' , 'title')
-titleText.textContent="Titan Project - All-in-one Business Infra"
+titleText.textContent="Backend API Design"
 Container.appendChild(titleText)
 
 DescLabel = document.createElement('div')
@@ -18,11 +18,11 @@ Container.appendChild(DescLabel)
 
 DescText = document.createElement('div')
 DescText.setAttribute('class' , 'paragraph-light')
-DescText.textContent="The reason why it's called a 'Titan Project' is that I literally built everything as an all-in-one solution for my customer, a startup education institute. First, I managed to execute our content strategty and built a website from scratch. Second, I programmed a business report generator with Google Analytics API and Python, utilizing flexible GA4 API to extensively visualize the traffic data of the website. Third, to boost inbound marketing, I designed the newsletter for promotional purposes. Also, I proposed and managed to set up email auto-reply to streamline the business conversion process, creating a smoother user experience, for both students and administrators. Finally, I initiated a desgin concept of a backend student and course management system, aiming to streamline administrative work in reception, coure management and students' progress assessment."
+DescText.textContent=" I take pride in my strong capabilities in backend API design, which play a crucial role in ensuring efficient, secure, and scalable communication between the server and client applications. My experience in this area involves crafting robust APIs that adhere to industry best practices and standards, such as RESTful architecture."
 
 Container.appendChild(DescText)
 
-TimeLabel = document.createElement('div')
+/*TimeLabel = document.createElement('div')
 TimeLabel.setAttribute('class' , 'label')
 TimeLabel.textContent="when"
 Container.appendChild(TimeLabel)
@@ -30,7 +30,7 @@ Container.appendChild(TimeLabel)
 TimeText = document.createElement('div')
 TimeText.setAttribute('class' , 'paragraph-light')
 TimeText.textContent="April 2023"
-Container.appendChild(TimeText)
+Container.appendChild(TimeText)*/
 
 ClientLabel = document.createElement('div')
 ClientLabel.setAttribute('class' , 'label')
@@ -39,10 +39,10 @@ Container.appendChild(ClientLabel)
 
 ClientText = document.createElement('div')
 ClientText.setAttribute('class' , 'paragraph-light')
-ClientText.textContent="LITE English School"
+ClientText.textContent="TiiQu (London), LITE English School"
 Container.appendChild(ClientText)
 
-AuthorLabel = document.createElement('div')
+/*AuthorLabel = document.createElement('div')
 AuthorLabel.setAttribute('class' , 'label')
 AuthorLabel.textContent="who"
 Container.appendChild(AuthorLabel)
@@ -53,7 +53,8 @@ AuthorText.textContent="YUEH LIN"
 Container.appendChild(AuthorText)*/
 
 text = [
-  {'tag':'div','class':'title','text':'Under Construction'},
+  {'tag':'div','class':'title','text':'Best Practice and Informing Frontend Requirements'},
+  {'tag':'div','class':'text','text':'A core aspect of my API design approach is emphasizing clarity and simplicity. I ensure that each endpoint is well-documented and follows consistent naming conventions, making it easier for developers to understand and use the APIs. Additionally, I focus on designing APIs that are intuitive and user-friendly, streamlining the integration process for front-end developers and other system components.'},
 
 ]
 
