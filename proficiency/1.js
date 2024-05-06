@@ -79,17 +79,22 @@ text = [
     'tag':'div',
     'class':'boldText',
     'text':"TiiQu Knowledge Map"},
+    {'tag':'img','src':"../image/tiiqu_knowledgeMap2.jpg"},
     {
     'tag':'div',
     'class':'text',
     'text':"TiiQu Knowledge Map is a product I designed and developed with TiiQu, a green technology startup based in London. We combine the concepts of network graph and map to visualize knowledge and even make knowledge interactive. Refer to Portfolio for more information."},
+    {'tag':'a','href':'../portfolio/6.html','text':'Go to this Portfolio'},
+
       {
       'tag':'div',
-      'class':'boldText',
+      'class':'title',
       'text':"Energy Scenario Explorer"},
+      {'tag':'img','src':"../image/energy_sidebar.gif"},
       {'tag':'div',
       'class':'text',
       'text':"Energy Scenario Explorer is a digital data interactive web application I developed with a research fellow in University College London. We visualize energy scenario data with respective charts and maps. The web application allows users to interact with the data by adjusting the levers for different scenario and results. Refer to Portfolio for more information."},
+      {'tag':'a','href':'../portfolio/5.html','text':'Go to this Portfolio'},
         
 ]
 

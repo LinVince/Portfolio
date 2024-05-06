@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
+div a {
+  padding-bottom: 215px;
+}
+
 #language {
   font-size:14px ;
 }

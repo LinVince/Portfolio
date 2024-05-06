@@ -63,8 +63,9 @@ function render(containerID, data_array){
 
 //Portfolio content here
 var portfolio_data_array = [
-{"id":6,"category":"portfolio","image":"../image/ga_img_6.jpg","info":"UI/UX, React, Python","name":"UX, Frontend - Knowledge Navigation Map"},
-{"id":3,"category":"portfolio","image":"../image/ga_img_3.jpg","info":"UX/UI, API, Frontend","name":"UX, Fullstack - All-in-one Business Infra"},
+{"id":7,"category":"portfolio","image":"../image/ga_img_11.jpg","info":"React, Typescript, zustand","name":"UX, Frontend - GameHub"},
+{"id":6,"category":"portfolio","image":"../image/ga_img_6.jpg","info":"UI/UX, React, Typescript, Python","name":"UX, Frontend - Knowledge Navigation Map"},
+{"id":3,"category":"portfolio","image":"../image/ga_img_3.jpg","info":"UX/UI, API, React, Typescript, Django","name":"UX, Fullstack - All-in-one Business Infra"},
 {"id":5,"category":"portfolio","image":"../image/ga_img_5.jpg","info":"Python Dash Plotly","name":"UX, Fullstack - Energy Scenario Explorer"},
 {"id":4,"category":"portfolio","image":"../image/ga_img_4.jpg","info":"React, Typescript, Python Flask (RESTful API), Cryptography","name":"UX, Fullstack - Bitcoin Money Generator"},
 {"id":2,"category":"portfolio","image":"../image/ga_img_2.jpg","info":"HTML/CSS/Javascript, Python Flask (RESTful API), SQL, AWS","name":"Fullstack - E-commerce Website"},
